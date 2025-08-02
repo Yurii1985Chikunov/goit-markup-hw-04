@@ -121,7 +121,7 @@ a {
   padding: 188px 0;
   margin: 0 auto;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-    url("/images/people-office.svg");
+    url("/images/people-office.jpg");
   max-width: 1440px;
 }
 
@@ -180,6 +180,7 @@ a {
 }
 
 .icon-list {
+    margin-bottom: 8px;
   display: flex;
   gap: 24px;
 }
@@ -189,9 +190,13 @@ a {
   border: 1px solid #8e8f99;
   width: calc((100% - 72px) / 4);
   min-height: 112px;
+  position: relative;
 }
 .icon {
-    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .second-section-list {
