@@ -94,12 +94,13 @@ a {
 .nav-link {
   display: block;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 .header-addrees {
@@ -115,6 +116,7 @@ a {
 
 .address-link {
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
@@ -310,7 +312,6 @@ a {
 }
 
 .network-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -323,6 +324,7 @@ a {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .network-link:hover,
