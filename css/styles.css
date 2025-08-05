@@ -78,7 +78,7 @@ a {
   gap: 40px;
 }
 
-.nav-item a::after {
+.nav-item ::after {
   content: "";
   display: block;
   position: absolute;
@@ -298,6 +298,7 @@ a {
 }
 
 .third-section-txt {
+  margin-bottom: 8px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -380,7 +381,7 @@ a {
   overflow: hidden;
 }
 
-.fourth-section-img:hover .img-txt {
+.fourth-section-item:hover .img-txt {
   transform: translateY(0%);
 }
 
